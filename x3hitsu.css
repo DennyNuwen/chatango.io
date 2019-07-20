@@ -1,3 +1,6 @@
-#fpix_wrapper, .topad, .profile_text, .uppermenu, .bottombar{display: none;}
+table#asltable.fpix_asl_table, #fpix_asl_table, #fpix_header, .fpix_header, .topad, #left_container, .uppermenu, .bottombar{display: none;}
 
-#disp{position: fixed; top: 0; left: 0; width: 100%; height: 100%;}
+.profile_text {
+    color: transparent;}
+
+#disp{position: fixed; top: 0; left: 0; width:100%; height:100%;}
