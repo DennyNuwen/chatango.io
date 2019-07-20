@@ -1,5 +1,5 @@
-*{box-sizing:border-box;list-style:none}html,body
-{width:100%;height:100%;overflow:hidden}
+*{box-sizing:border-box;list-style:none}
+html,body{width:100%;height:100%;overflow:hidden}
 
 body{
   margin:0;
@@ -8,24 +8,5 @@ body{
   -webkit-transform:translate3d(0, 0, 0);
   color:#FFFFCC;text-align:left !important}
   
-  ul{
-    position:relative;
-    margin:0}
-    
-.overlay{
-  position:absolute;
-  top:0;
-  left:0;
-  height:100%;width:100%;background-position:center right;
-  background-color:#000;background-size:auto 100%;background-repeat:no-repeat}
-  
-.list-item{
-  font-size:17px;background:#000000;
-  color:#575757;text-align:center;height:2.5em;
-  width:4em;vertical-align:middle;line-height:2.5em;
-  border-bottom:1px solid #060606;position:relative;display:block;
-  text-decoration:none;box-shadow:-2em 1.5em 0 rgba(0,0,0,0.5);
-  -webkit-transition:top 0.25s linear,left 0.25s linear,background 0.1s linear,color 0.1s linear;
-  transition:top 0.25s linear,left 0.25s linear,background 0.1s linear,color 0.1s linear}
-  
-.list-item:hover{cursor:hand;background:#ff6e42;color:#fffcfb;top:-0.5em;left:0.5em;-webkit-transition:top 0.25s linear,left 0.25s linear,background 0.1s linear,color 0.1s linear;transition:top 0.25s linear,left 0.25s linear,background 0.1s linear,color 0.1s linear;box-shadow:-2em 2em 0 rgba(0,0,0,0.7)}.list-item:hover:before,.list-item:hover:after{-webkit-transition:all 0.25s linear;transition:all 0.25s linear}.list-item:hover:before{background:#b65234;width:1em;top:0.5em;left:-1em}.list-item:hover:after{background:#b65234;width:1em;bottom:-2.5em;left:1em;height:4em}.list-item:before,.list-item:after{-webkit-transition:all 0.25s linear;transition:all 0.25s linear}.list-item:after{content:"";position:absolute;height:4em;background:#181818;width:0.5em;bottom:-2.25em;left:1.5em;-webkit-transform:rotate(90deg) skew(0deg, 45deg);-ms-transform:rotate(90deg) skew(0deg, 45deg);transform:rotate(90deg) skew(0deg, 45deg)}.list-item:before{content:"";position:absolute;height:2.5em;background:#121212;width:0.5em;top:0.215em;left:-0.45em;-webkit-transform:skewY(-45deg);-ms-transform:skewY(-45deg);transform:skewY(-45deg)}.list-item i{line-height:inherit}.navigation{font-size:100%;position:absolute;top:9px;right:13px}.container{position:absolute;top:20px;left:20px;right:130px;bottom:20px}.container>div{background:rgba(0,0,0,0.3);min-width:100%;height:100%;overflow-y:visible;overflow-x:hidden;margin-top:100%;padding:10px 20px;position:absolute;visibility:hidden;opacity:0;text-shadow:1px 1px #000;-webkit-transition:all 0.8s ease-in-out;transition:all 0.8s ease-in-out}.container .active{margin-top:0% !important;visibility:visible !important;opacity:1 !important}#audio-fft{position:absolute;top:0;left:0;width:100%;height:250px}.dg.a{margin-right:90px !important;display:none}.songblock{float:left;width:150px;height:150px;margin:10px;background:#333;text-align:center;line-height:150px;border-radius:10px;cursor:pointer}.friends-header{border-top-left-radius:15px;border-top-right-radius:15px;border:2px #336666 solid;border-bottom:none;padding:5px 0 5px 20px}.user{display:inline-block;position:relative;width:auto;height:auto;text-align:center;padding:0px 10px}.user img{border-radius:10px}#music-controls{display:inline-block;z-index:5;position:absolute;right:100px}.videos{text-align:center}.video{position:relative;width:320px;height:180px;display:inline-block;margin:10px}.video-thumb{position:absolute;top:0;left:0}.video-title{position:absolute;width:100%;text-align:center;display:inline-block;font-size:20px;color:#f00;left:0}.video.active .video-thumb::after{content:"â–º";position:absolute;top:39px;left:123px;font-size:100px;color:#f00}.video:hover{cursor:pointer}.search-video{text-align:center}.video-input{width:300px;display:inline-block;padding:10px 30px;border-radius:10px}.video-input>div{color:#F00;font-size:21px;border-bottom:2px solid red;margin-bottom:10px;padding-bottom:5px}.video-input input{width:100%;height:30px;padding:0 5px;background-color:#ccc;border:none;color:#f00;font-size:16px}::-webkit-scrollbar{width:0px}::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px #ccc;border-radius:10px;background:#eee}::-webkit-scrollbar-thumb{border-radius:10px;background:#ccc;-webkit-box-shadow:inset 0 0 6px #bbb}
+#left_container,.topad,.profile_text{display: none;}
+#disp{position: fixed; top: 0; left: 0; width: 100%; height: 100%;}
