@@ -1,4 +1,4 @@
-table#asltable.fpix_asl_table, #fpix_asl_table, #fpix_header, .fpix_header, .topad, #left_container, .uppermenu, .bottombar{display: none;}
+#chatbutton, table#asltable.fpix_asl_table, #fpix_asl_table, #fpix_header, .fpix_header, .topad, #left_container, .uppermenu, .bottombar{display: none;}
 
 .profile_text {
     color: transparent;}
