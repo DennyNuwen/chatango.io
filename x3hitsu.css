@@ -1,12 +1,5 @@
-*{box-sizing:border-box;list-style:none}
-html,body{width:100%;height:100%;overflow:hidden}
-
-body{
-  margin:0;
-  min-width:600px;
-  background:#000;
-  -webkit-transform:translate3d(0, 0, 0);
-  color:#FFFFCC;text-align:left !important}
-  
 #fpix_wrapper,#left_container,.topad,.profile_text{display: none;}
+
+  
+
 #disp{position: fixed; top: 0; left: 0; width: 100%; height: 100%;}
